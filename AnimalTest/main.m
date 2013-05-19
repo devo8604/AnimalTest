@@ -13,9 +13,9 @@
 
 int main(int argc, const char * argv[])
 {
-
-    @autoreleasepool {
     
+    @autoreleasepool {
+        
         NSMutableArray *animals = [[NSMutableArray alloc] initWithCapacity:3];
         Dog *dog = [[Dog alloc] init];
         Cat *cat = [[Cat alloc] init];
@@ -24,13 +24,13 @@ int main(int argc, const char * argv[])
         [animals addObject: dog];
         [animals addObject: cat];
         [animals addObject: lion];
-
+        
         @try {
             for(int i = 0; i < [animals count]; i++) {
                 
                 NSLog(@"I am a %@ and I say %@", [[animals objectAtIndex:(i)] myBreed], [[animals objectAtIndex:(i)] myLanguage]);
             }
-
+            
         }
         @catch (NSException *exception) {
             NSLog(@"%@", exception);

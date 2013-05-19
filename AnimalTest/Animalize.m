@@ -10,4 +10,13 @@
 
 @implementation Animalize
 
+- (NSString *)myBreed {
+    NSString *breed = @"Random Animal";
+    return breed;
+}
+- (NSString *)myLanguage {
+    NSString *language = @"Animal Noises!";
+    return language;
+}
+
 @end
