@@ -10,4 +10,14 @@
 
 @implementation Dog
 
+- (NSString *)myBreed {
+    NSString *breed = @"Miniature Schnauzer";
+    return breed;
+}
+
+- (NSString *)myLanguage  {
+    NSString *language = @"RUFF!";
+    return language;
+}
+
 @end

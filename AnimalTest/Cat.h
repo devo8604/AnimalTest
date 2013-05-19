@@ -10,7 +10,4 @@
 
 @interface Cat : Animalize
 
-- (NSString *)myLanguage;
-- (NSString *)myBreed;
-
 @end

@@ -10,7 +10,4 @@
 
 @interface Lion : Animalize
 
-- (NSString *)myLanguage;
-- (NSString *)myBreed;
-
 @end

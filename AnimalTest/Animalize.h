@@ -10,7 +10,7 @@
 
 @interface Animalize : NSObject
 
-- (NSString *)myLanguage;
 - (NSString *)myBreed;
+- (NSString *)myLanguage;
 
 @end
