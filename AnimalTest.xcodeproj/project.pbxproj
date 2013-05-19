@@ -10,6 +10,10 @@
 		94BA7AD217495D7300DDDD64 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94BA7AD117495D7300DDDD64 /* Foundation.framework */; };
 		94BA7AD517495D7300DDDD64 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 94BA7AD417495D7300DDDD64 /* main.m */; };
 		94BA7AD917495D7300DDDD64 /* AnimalTest.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 94BA7AD817495D7300DDDD64 /* AnimalTest.1 */; };
+		94BA7AE117495EDE00DDDD64 /* Animalize.m in Sources */ = {isa = PBXBuildFile; fileRef = 94BA7AE017495EDE00DDDD64 /* Animalize.m */; };
+		94BA7AE417495FEF00DDDD64 /* Dog.m in Sources */ = {isa = PBXBuildFile; fileRef = 94BA7AE317495FEF00DDDD64 /* Dog.m */; };
+		94BA7AE71749602600DDDD64 /* Cat.m in Sources */ = {isa = PBXBuildFile; fileRef = 94BA7AE61749602600DDDD64 /* Cat.m */; };
+		94BA7AEA1749605F00DDDD64 /* Lion.m in Sources */ = {isa = PBXBuildFile; fileRef = 94BA7AE91749605F00DDDD64 /* Lion.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +35,14 @@
 		94BA7AD417495D7300DDDD64 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		94BA7AD717495D7300DDDD64 /* AnimalTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AnimalTest-Prefix.pch"; sourceTree = "<group>"; };
 		94BA7AD817495D7300DDDD64 /* AnimalTest.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = AnimalTest.1; sourceTree = "<group>"; };
+		94BA7ADF17495EDE00DDDD64 /* Animalize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Animalize.h; sourceTree = "<group>"; };
+		94BA7AE017495EDE00DDDD64 /* Animalize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Animalize.m; sourceTree = "<group>"; };
+		94BA7AE217495FEF00DDDD64 /* Dog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dog.h; sourceTree = "<group>"; };
+		94BA7AE317495FEF00DDDD64 /* Dog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dog.m; sourceTree = "<group>"; };
+		94BA7AE51749602600DDDD64 /* Cat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cat.h; sourceTree = "<group>"; };
+		94BA7AE61749602600DDDD64 /* Cat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cat.m; sourceTree = "<group>"; };
+		94BA7AE81749605F00DDDD64 /* Lion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Lion.h; sourceTree = "<group>"; };
+		94BA7AE91749605F00DDDD64 /* Lion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Lion.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +86,14 @@
 			isa = PBXGroup;
 			children = (
 				94BA7AD417495D7300DDDD64 /* main.m */,
+				94BA7ADF17495EDE00DDDD64 /* Animalize.h */,
+				94BA7AE217495FEF00DDDD64 /* Dog.h */,
+				94BA7AE51749602600DDDD64 /* Cat.h */,
+				94BA7AE81749605F00DDDD64 /* Lion.h */,
+				94BA7AE91749605F00DDDD64 /* Lion.m */,
+				94BA7AE61749602600DDDD64 /* Cat.m */,
+				94BA7AE317495FEF00DDDD64 /* Dog.m */,
+				94BA7AE017495EDE00DDDD64 /* Animalize.m */,
 				94BA7AD817495D7300DDDD64 /* AnimalTest.1 */,
 				94BA7AD617495D7300DDDD64 /* Supporting Files */,
 			);
@@ -140,6 +160,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				94BA7AD517495D7300DDDD64 /* main.m in Sources */,
+				94BA7AE117495EDE00DDDD64 /* Animalize.m in Sources */,
+				94BA7AE417495FEF00DDDD64 /* Dog.m in Sources */,
+				94BA7AE71749602600DDDD64 /* Cat.m in Sources */,
+				94BA7AEA1749605F00DDDD64 /* Lion.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
