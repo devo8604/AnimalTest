@@ -16,7 +16,7 @@ int main(int argc, const char * argv[])
     
     @autoreleasepool {
         
-        NSMutableArray *animals = [[NSMutableArray alloc] initWithCapacity:3];
+        NSMutableArray *animals = [[NSMutableArray alloc] init];
         Dog *dog = [[Dog alloc] init];
         Cat *cat = [[Cat alloc] init];
         Lion *lion = [[Lion alloc] init];
