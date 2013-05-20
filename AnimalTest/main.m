@@ -5,6 +5,17 @@
 //  Created by Devon Smith on 5/19/13.
 //  Copyright (c) 2013 Devon Smith. All rights reserved.
 //
+/* The difference between an Interface and a Class in ObjC.
+
+From what I have read, in order to define a new class in ObjC, you must 
+declare it using the @interface syntax. The only information I could find 
+where you would actually use the word class, is when you use the @class syntax 
+instead of the #import statement. Using @class allows you to reference the 
+instance variables of the stated class, or @interface, and tells the compiler to 
+ignore the methods that are within that class, which also means that you can't use 
+any of the methods within that class unless you use the import statement. 
+
+*/
 
 #import <Foundation/Foundation.h>
 #import "Dog.h"
