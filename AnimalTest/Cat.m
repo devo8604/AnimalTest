@@ -10,17 +10,6 @@
 
 @implementation Cat
 
-- (id) init {
-    return [self initWithName:@"noName"];
-}
-
-- (id) initWithName:(NSString *)myName {
-    if (self = [super init]) {
-        name = myName;
-    }
-    return self;
-}
-
 - (NSString *)myBreed {
     NSString *breed = @"Hairless Cat";
     return breed;
@@ -31,8 +20,5 @@
     return language;
 } //myLanguage
 
-- (NSString *)name {
-    return name;
-}
 
 @end //Cat

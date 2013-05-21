@@ -9,9 +9,8 @@
 #import <Foundation/Foundation.h>
 
 @interface Animalize : NSObject
-{
-    NSString *name;
-}
+
+@property NSString* name;
 
 - (id) initWithName:(NSString *)myName;
 

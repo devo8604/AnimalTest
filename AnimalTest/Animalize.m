@@ -10,6 +10,19 @@
 
 @implementation Animalize
 
+@synthesize name;
+
+- (id) init {
+    return [self initWithName:@"noName"];
+}
+
+- (id) initWithName:(NSString *)myName {
+    if (self = [super init]) {
+        [self setName:myName];
+    }
+    return self;
+}
+
 - (NSString *)myBreed {
     NSString *breed = @"Random Animal";
     return breed;
@@ -19,10 +32,5 @@
     NSString *language = @"Animal Noises!";
     return language;
 } //myLanguage
-
-- (NSString *)name {
-    name = @"noName";
-    return name;
-}
 
 @end //Animalize
