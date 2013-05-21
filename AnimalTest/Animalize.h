@@ -14,8 +14,11 @@
 
 - (id) initWithName:(NSString *)myName;
 
+//Aminalize source contains default functions, but only only create instances
+//of the subclasses. Using using [super init] will give the animalize object 
+//a default name, so it is better to use initWithName.
+
 - (NSString *)myBreed;
 - (NSString *)myLanguage;
-- (NSString *)name;
 
 @end
