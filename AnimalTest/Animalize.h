@@ -9,8 +9,12 @@
 #import <Foundation/Foundation.h>
 
 @interface Animalize : NSObject
+{
+    NSString *name;
+}
 
 - (NSString *)myBreed;
 - (NSString *)myLanguage;
+- (NSString *)name;
 
 @end

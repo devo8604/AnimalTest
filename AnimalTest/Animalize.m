@@ -20,4 +20,9 @@
     return language;
 } //myLanguage
 
+- (NSString *)name {
+    name = @"noName";
+    return name;
+}
+
 @end //Animalize

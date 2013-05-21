@@ -10,14 +10,26 @@
 
 @implementation Lion
 
+- (id) init {
+    self = [super init];
+    if (self) {
+        name = @"Purry";
+    }
+    return self;
+}
+
 - (NSString *)myBreed {
     NSString *breed = @"Lion";
     return breed;
 } //myBreed
 
 - (NSString *)myLanguage {
-    NSString *language = @"ROAR!";
+    NSString *language = @"roar!";
     return language;
 } //myLanguage
+
+- (NSString *)name {
+    return name;
+}
 
 @end //Lion

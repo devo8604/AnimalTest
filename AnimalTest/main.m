@@ -22,9 +22,8 @@ any of the methods within that class unless you use the import statement.
 #import "Cat.h"
 #import "Lion.h"
 
-int main(int argc, const char * argv[])
+int main()
 {
-    
     @autoreleasepool {
         
         NSMutableArray *animals = [[NSMutableArray alloc] init];
@@ -38,8 +37,10 @@ int main(int argc, const char * argv[])
         
         @try {
             for(int i = 0; i < [animals count]; i++) {
-                NSLog(@"I am a %@ and I say %@", [[animals objectAtIndex:(i)] myBreed],
-                      [[animals objectAtIndex:(i)] myLanguage]);
+                NSLog(@"%@ is a %@ and he says %@",
+                      [[animals objectAtIndex:(i)] name],
+                      [[animals objectAtIndex:(i)] myBreed],
+                      [[[animals objectAtIndex:(i)] myLanguage] uppercaseString]);
             }
         }
         @catch (NSException *exception) {
