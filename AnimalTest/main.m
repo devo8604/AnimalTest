@@ -29,11 +29,11 @@ int main()
         NSMutableArray *animals = [[NSMutableArray alloc] init];
         
         Dog *jasper = [[Dog alloc] initWithName: @"Jasper"];
-        Cat *pinky = [[Cat alloc] initWithName:@"Pinky"];
-        Lion *purry = [[Lion alloc] initWithName:@"Purry"];
-        Dog *mac = [[Dog alloc] initWithName:@"Mac"];
-        Cat *skinny = [[Cat alloc] initWithName:@"Skinny"];
-        Lion *manny = [[Lion alloc] initWithName:@"Manny"];
+        Cat *pinky = [[Cat alloc] initWithName: @"Pinky"];
+        Lion *purry = [[Lion alloc] initWithName: @"Purry"];
+        Dog *mac = [[Dog alloc] initWithName: @"Mac"];
+        Cat *skinny = [[Cat alloc] initWithName: @"Skinny"];
+        Lion *manny = [[Lion alloc] initWithName: @"Manny"];
         
         [animals addObject: jasper];
         [animals addObject: pinky];
