@@ -38,16 +38,14 @@ int main(int argc, const char * argv[])
         
         @try {
             for(int i = 0; i < [animals count]; i++) {
-                
                 NSLog(@"I am a %@ and I say %@", [[animals objectAtIndex:(i)] myBreed],
                       [[animals objectAtIndex:(i)] myLanguage]);
             }
-            
         }
         @catch (NSException *exception) {
             NSLog(@"%@", exception);
         }
     }
     return 0;
-}
+} //main
 

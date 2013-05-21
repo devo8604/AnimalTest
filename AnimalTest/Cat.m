@@ -13,11 +13,11 @@
 - (NSString *)myBreed {
     NSString *breed = @"Hairless Cat";
     return breed;
-}
+} //myBreed
 
 - (NSString *)myLanguage {
     NSString *language = @"MEOW!";
     return language;
-}
+} //myLanguage
 
-@end
+@end //Cat

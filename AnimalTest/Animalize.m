@@ -13,10 +13,11 @@
 - (NSString *)myBreed {
     NSString *breed = @"Random Animal";
     return breed;
-}
+} //myBreed
+
 - (NSString *)myLanguage {
     NSString *language = @"Animal Noises!";
     return language;
-}
+} //myLanguage
 
-@end
+@end //Animalize
