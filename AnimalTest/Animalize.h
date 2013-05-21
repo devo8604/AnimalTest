@@ -13,6 +13,8 @@
     NSString *name;
 }
 
+- (id) initWithName:(NSString *)myName;
+
 - (NSString *)myBreed;
 - (NSString *)myLanguage;
 - (NSString *)name;

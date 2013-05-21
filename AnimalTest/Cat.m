@@ -11,9 +11,12 @@
 @implementation Cat
 
 - (id) init {
-    self = [super init];
-    if (self) {
-        name = @"Pinky";
+    return [self initWithName:@"noName"];
+}
+
+- (id) initWithName:(NSString *)myName {
+    if (self = [super init]) {
+        name = myName;
     }
     return self;
 }

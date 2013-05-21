@@ -11,9 +11,12 @@
 @implementation Lion
 
 - (id) init {
-    self = [super init];
-    if (self) {
-        name = @"Purry";
+    return [self initWithName:@"noName"];
+}
+
+- (id) initWithName:(NSString *)myName {
+    if (self = [super init]) {
+        name = myName;
     }
     return self;
 }

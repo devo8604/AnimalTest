@@ -27,13 +27,20 @@ int main()
     @autoreleasepool {
         
         NSMutableArray *animals = [[NSMutableArray alloc] init];
-        Dog *dog = [[Dog alloc] init];
-        Cat *cat = [[Cat alloc] init];
-        Lion *lion = [[Lion alloc] init];
         
-        [animals addObject: dog];
-        [animals addObject: cat];
-        [animals addObject: lion];
+        Dog *jasper = [[Dog alloc] initWithName: @"Jasper"];
+        Cat *pinky = [[Cat alloc] initWithName:@"Pinky"];
+        Lion *purry = [[Lion alloc] initWithName:@"Purry"];
+        Dog *mac = [[Dog alloc] initWithName:@"Mac"];
+        Cat *skinny = [[Cat alloc] initWithName:@"Skinny"];
+        Lion *manny = [[Lion alloc] initWithName:@"Manny"];
+        
+        [animals addObject: jasper];
+        [animals addObject: pinky];
+        [animals addObject: purry];
+        [animals addObject: mac];
+        [animals addObject: skinny];
+        [animals addObject: manny];
         
         @try {
             for(int i = 0; i < [animals count]; i++) {
